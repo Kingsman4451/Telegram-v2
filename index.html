@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram v2</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <div class="telegram">
+    <div class="container-xl container-fluid">
+      <div class="telegram__screen row">
+        <!-- ====================== LEFT ====================== -->
+        <section class="left d-none d-md-block col-1 col-lg-4 gx-0">
+          <div class="left__header d-flex align-items-center justify-content-center bg-white p-2">
+            <img class="left__header-img" src="./img/burger-menu.png" alt="burger menu" width="18" height="12">
+            <input class="left__input form-control d-none d-lg-block offset-1 text-secondary border-0 rounded-3" type="text" placeholder="Search" aria-label="search">
+          </div>
+          <ul class="left__list list-unstyled">
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-1.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-1.jpg 1x, ./img/avatar-1@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Baikal Lake</p>
+                    <p class="left__item-time fw-bold m-0">Mon</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0 fw-bold"><span class="left__item-message--blue text-primary fw-normal">You:</span> Good idea!!</p>
+                    <img class="left__item-pin d-block" src="./img/pin.png" alt="pin" width="13" height="13">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-2.jpg" alt="Moscow friends" width="46" height="46" srcset="./img/avatar-2.jpg 1x, ./img/avatar-2@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Moscow friends</p>
+                    <p class="left__item-time fw-bold m-0">4:44 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0 fw-bold"><span class="left__item-message--blue text-primary fw-normal">Dima:</span>  Okey!</p>
+                    <img class="left__item-pin d-block" src="./img/pin.png" alt="pin" width="13" height="13">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-3.jpg" alt="Evgenia Markova" width="46" height="46" srcset="./img/avatar-3.jpg 1x, ./img/avatar-3@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0 text-white">Evgenia Markova</p>
+                    <p class="left__item-time fw-bold m-0 text-white">9:37 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0 text-white">You: https://dribbble.com/shots/327...</p>
+                    <img class="left__item-pin d-block" src="./img/pin-white.png" alt="pin" width="13" height="13">
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-5.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-5.jpg 1x, ./img/avatar-5@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Dribbble</p>
+                    <p class="left__item-time fw-bold m-0">9:21 AM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0 fw-bold"><span class="left__item-message--blue text-primary fw-normal">Photo</span></p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-4.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-4.jpg 1x, ./img/avatar-4@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Framer Learning Chan…</p>
+                    <p class="left__item-time fw-bold m-0">11:14 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-"><span class="left__item-message--blue text-primary fw-normal">You:</span> ok</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-6.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-6.jpg 1x, ./img/avatar-6@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Chat functional</p>
+                    <p class="left__item-time fw-bold m-0">3:32 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0"><span class="left__item-message--blue text-primary fw-normal">You:</span> If transfer will be immidea…</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-7.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-7.jpg 1x, ./img/avatar-7@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Ksusha Kasatkina</p>
+                    <p class="left__item-time fw-bold m-0">3:25 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0">Thaaaanks)</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="left__item">
+              <a class="left__link text-decoration-none d-flex align-items-center w-100 p-2" href="#">
+                <img class="left__item-img rounded-circle" src="./img/avatar-8.jpg" alt="Baikal" width="46" height="46" srcset="./img/avatar-8.jpg 1x, ./img/avatar-8@2x.jpg 2x">
+                <div class="left__item-content w-100 d-none d-lg-block">
+                  <div class="left__item-top d-flex justify-content-between w-100 mb-2">
+                    <p class="left__item-name m-0">Elena Mishel</p>
+                    <p class="left__item-time fw-bold m-0">3:25 PM</p>
+                  </div>
+                  <div class="left__item-bottom d-flex justify-content-between w-100">
+                    <p class="left__item-message m-0">Thaaaanks)</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- ====================== /LEFT ====================== -->
+
+        <!-- ====================== RIGHT ====================== -->
+        <section class="right col-12 col-md-11 col-lg-8 gx-0">
+          <div class="right__header d-flex justify-content-between align-items-center p-2 bg-white">
+            <div class="right__header-left">
+              <p class="right__header-name m-0 mb-1">Evgenia Markova</p>
+              <p class="right__header-time m-0">last seen 16 minutes ago</p>
+            </div>
+            <div class="right__header-right">
+              <button class="right__header-btn bg-transparent mx-4 border-0" type="button">
+                <img class="right__header-search" src="./img/search.png" alt="search" width="18" height="18">
+              </button>
+              <button class="right__header-btn bg-transparent border-0" type="button">
+                <img class="right__header-search" src="./img/setting.png" alt="search" width="4" height="16">
+              </button>
+            </div>
+          </div>
+          <div class="right__main">
+            <ul class="right__main-list list-unstyled d-flex flex-column m-0 px-3 py-2">
+              <li class="right__main-item align-self-end d-flex rounded-3">
+                <p class="right__item-text m-0">
+                  >Can you send it for me?
+                  <br>
+                  Well, yes, why not?
+                </p>
+                <span class="right__item-time align-self-end mx-4">5:42  PM</span>
+              </li>
+              <li class="right__main-item-white d-flex rounded-3 my-3 pmy-sm-0">
+                <p class="right__item-text">
+                  Thanks!
+                </p>
+                <span class="right__item-time align-self-end">5:42  PM</span>
+              </li>
+              <li class="right__main-item align-self-end rounded-3">
+                <a class="right__item-link text-decoration-none" href="#">
+                  http://dlinnychulok.livejournal.com/6743.html
+                </a>
+                <div class="right__item-content">
+                  <p class="right__content-title fw-bold">PhotoBlog</p>
+                  <p class="right__content-subtitle fw-bold">Montenegro trip</p>
+                  <p class="right__content-text m-0 mb-2">Markov Dmitriy</p>
+                  <img class="right__item-img" src="./img/center-img.jpg" alt="mountain" width="394" height="263">
+                </div>
+                <span class="right__item-time d-block text-end mt-1">9:42  PM</span>
+              </li>
+            </ul>
+          </div>
+          <div class="right__bottom d-flex bg-white py-2">
+            <button class="right__bottom-btn border-0 bg-transparent mx-2" type="button">
+              <img src="./img/more.png" alt="more" width="18" height="20">
+            </button>
+            <input class="right__bottom-input form-control border-0" type="text" placeholder="Write a message..." aria-label="message">
+            <button class="right__bottom-btn border-0 bg-transparent mx-3" type="button">
+              <img src="./img/smile.png" alt="more" width="22" height="22">
+            </button>
+            <button class="right__bottom-btn border-0 bg-transparent mx-1" type="button">
+              <img src="./img/micrafon.png" alt="more" width="15" height="23">
+            </button>
+          </div>
+        </section>
+        <!-- ====================== /RIGHT ====================== -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
