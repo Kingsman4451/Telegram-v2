@@ -64,6 +64,7 @@ body {
 
 
 .right {
+  overflow:auto;
   height: 100vh;
 }
 .right__header {
