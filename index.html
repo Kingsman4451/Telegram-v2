@@ -16,7 +16,9 @@
         <section class="left d-none d-md-block col-1 col-lg-4 gx-0">
           <div class="left__header d-flex align-items-center justify-content-center bg-white p-2">
             <img class="left__header-img" src="./img/burger-menu.png" alt="burger menu" width="18" height="12">
-            <input class="left__input form-control d-none d-lg-block offset-1 text-secondary border-0 rounded-3" type="text" placeholder="Search" aria-label="search">
+            <form class="left__header-form d-none d-lg-block  offset-1 w-100" action="https://echo.htmlacademy.ru" method="GET">
+              <input class="left__input text-secondary ps-2 border-0 rounded-3 w-100" type="text" name="search" placeholder="Search" aria-label="search">
+            </form>
           </div>
           <ul class="left__list list-unstyled">
             <li class="left__item">
@@ -188,7 +190,9 @@
             <button class="right__bottom-btn border-0 bg-transparent mx-2" type="button">
               <img src="./img/more.png" alt="more" width="18" height="20">
             </button>
-            <input class="right__bottom-input form-control border-0" type="text" placeholder="Write a message..." aria-label="message">
+            <form class="right__bottom-left w-100" action="https://echo.htmlacademy.ru" method="post">
+              <input class="right__bottom-input form-control border-0 w-100" type="text" name="message" placeholder="Write a message..." aria-label="message">
+            </form>
             <button class="right__bottom-btn border-0 bg-transparent mx-3" type="button">
               <img src="./img/smile.png" alt="more" width="22" height="22">
             </button>
